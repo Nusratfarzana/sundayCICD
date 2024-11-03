@@ -1,0 +1,17 @@
+<suite name = "suite1" verbose="1">
+    <test name ="Guru99">
+        <groups>
+
+        </groups>
+        
+        <parameter name="firstName" value="Alexander"/>
+        <parameter name="lastName" value="Sukhoi"/>
+
+        <classes>           
+            <class name ="SeleniumTest_Guru99" />
+             <class name ="TestMath" />  
+        </classes>
+
+
+    </test>
+</suite>
