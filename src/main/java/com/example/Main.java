@@ -10,17 +10,59 @@ import io.opentelemetry.semconv.SemanticAttributes.SystemCpuStateValues;
 import java.util.ArrayList;
 
 public class Main {
-
-	
-	
 	public static void main(String[] args) throws InterruptedException 
 	{
-		TestCalssForGuruTelecom obj = new TestCalssForGuruTelecom();
-		String customerID = obj.AddCustomer();
-		
+		MathCalculator obj = new MathCalculator();
+		int num1 = 100;
+		int num2 = -150;
 
+		int sum = obj.Add2Numbers(num1, num2);
+		if(sum == num1+num2)
+		{
+			System.out.println("Test Pass");
+		}
+		else
+		{
+			System.out.println("Test Failed");
+		}
+
+
+		
+		if(obj.PrimeChecker(13) == true)
+		{
+			System.out.println("Test Pass for Prime Numer");
+		}
+		else
+		{
+			System.out.println("Test Failed for Prime");
+		}
+
+		if(obj.PrimeChecker(20) == false)
+		{
+			System.out.println("Test Pass for Prime Numer");
+		}
+		else
+		{
+			System.out.println("Test Failed for Prime");
+		}
 	}
 	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	private static ArrayList GetSomeFormData() 
 	{
 		

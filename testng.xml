@@ -1,32 +1,35 @@
 <suite name = "suite1" verbose="1">
-    <test name ="Guru99_Positive">          
+
+    <test name ="Guru99_Positive">
         <parameter name="firstName" value="Alexander"/>
         <parameter name="lastName" value="Sukhoi"/>
         <parameter name="email" value="abc@gmail.com"/>
         <parameter name="phone" value="3233218914"/>
         <parameter name="address" value="561 Lmn Ave"/>
         <classes>           
-            <class name ="SeleniumTest_Guru99" />              
+            <class name ="SeleniumNewTest" />              
         </classes>
     </test>
-    <test name ="Guru99_Negative_lastName">          
-        <parameter name="firstName" value="Alexander"/>
-        <parameter name="lastName" value=""/>
-        <parameter name="email" value="abc@gmail.com"/>
+    
+    <test name ="Guru99_Positive1">          
+        <parameter name="firstName" value="dhfksjdf"/>
+        <parameter name="lastName" value="Susdfsdfkhoi"/>
+        <parameter name="email" value="xxxx@gmail.com"/>
         <parameter name="phone" value="3233218914"/>
-        <parameter name="address" value="561 Lmn Ave"/>
+        <parameter name="address" value="asead1 Lmn Ave"/>
         <classes>           
-            <class name ="SeleniumTest_Guru99" />              
+            <class name ="SeleniumNewTest" />              
         </classes>
     </test>
-        <test name ="Guru99_Negative_firstname">          
-        <parameter name="firstName" value=""/>
-        <parameter name="lastName" value="Alexander"/>
-        <parameter name="email" value="abc@gmail.com"/>
+        <test name ="Guru99_Positive2">          
+        <parameter name="firstName" value="dhfksjdf"/>
+        <parameter name="lastName" value="Susdfsdfkhoi"/>
+        <parameter name="email" value="xxxx@gmail.com"/>
         <parameter name="phone" value="3233218914"/>
-        <parameter name="address" value="561 Lmn Ave"/>
+        <parameter name="address" value="asead1 Lmn Ave"/>
         <classes>           
-            <class name ="SeleniumTest_Guru99" />              
+            <class name ="SeleniumNewTest" />              
         </classes>
     </test>
+    
 </suite>

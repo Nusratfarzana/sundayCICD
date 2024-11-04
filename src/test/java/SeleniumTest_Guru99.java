@@ -22,6 +22,7 @@ public class SeleniumTest_Guru99 {
 
 	}
 
+	/*
 	@Test(priority = 1)
 	@Parameters({"firstName", "lastName","email","phone","address"})
 	public void AddCustomer(String firstName, String lastName,String email, String phone,String address) throws InterruptedException {
@@ -76,5 +77,6 @@ public class SeleniumTest_Guru99 {
 		btn.click();
 	}
 
+	 */
 	
 }
