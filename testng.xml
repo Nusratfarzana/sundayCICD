@@ -1,17 +1,32 @@
 <suite name = "suite1" verbose="1">
-    <test name ="Guru99">
-        <groups>
-
-        </groups>
-        
+    <test name ="Guru99_Positive">          
         <parameter name="firstName" value="Alexander"/>
         <parameter name="lastName" value="Sukhoi"/>
-
+        <parameter name="email" value="abc@gmail.com"/>
+        <parameter name="phone" value="3233218914"/>
+        <parameter name="address" value="561 Lmn Ave"/>
         <classes>           
-            <class name ="SeleniumTest_Guru99" />
-             <class name ="TestMath" />  
+            <class name ="SeleniumTest_Guru99" />              
         </classes>
-
-
+    </test>
+    <test name ="Guru99_Negative_lastName">          
+        <parameter name="firstName" value="Alexander"/>
+        <parameter name="lastName" value=""/>
+        <parameter name="email" value="abc@gmail.com"/>
+        <parameter name="phone" value="3233218914"/>
+        <parameter name="address" value="561 Lmn Ave"/>
+        <classes>           
+            <class name ="SeleniumTest_Guru99" />              
+        </classes>
+    </test>
+        <test name ="Guru99_Negative_firstname">          
+        <parameter name="firstName" value=""/>
+        <parameter name="lastName" value="Alexander"/>
+        <parameter name="email" value="abc@gmail.com"/>
+        <parameter name="phone" value="3233218914"/>
+        <parameter name="address" value="561 Lmn Ave"/>
+        <classes>           
+            <class name ="SeleniumTest_Guru99" />              
+        </classes>
     </test>
 </suite>

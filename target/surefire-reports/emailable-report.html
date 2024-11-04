@@ -9,40 +9,17 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">suite1</th></tr>
-<tr><td><a href="#t0">Guru99</a></td><td class="num">7</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,604</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Guru99_Positive</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">8,697</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Guru99_Negative_lastName</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">5,239</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Guru99_Negative_firstname</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">6,494</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">3</th><th class="num">0</th><th class="num">0</th><th class="num">0</th><th class="num">20,430</th><th colspan="2"></th></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Guru99 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">SeleniumTest_Guru99</td><td><a href="#m0">RunMYWebDriver</a></td><td rowspan="1">1729467021117</td><td rowspan="1">8027</td></tr><tr><th colspan="4">Guru99 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">SeleniumTest_Guru99</td><td><a href="#m1">MyWebDriverSucc</a></td><td rowspan="1">1729467008598</td><td rowspan="1">12518</td></tr><tr class="passedeven"><td><a href="#m2">Test1</a></td><td rowspan="1">1729467008594</td><td rowspan="1">4</td></tr><tr class="passedodd"><td rowspan="5">TestMath</td><td><a href="#m3">AddtoCart</a></td><td rowspan="1">1729467008578</td><td rowspan="1">4</td></tr><tr class="passedodd"><td><a href="#m4">TestAdditionWithDiffrentValues</a></td><td rowspan="1">1729467008594</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m5">TestDifferenceWithDiffrentValues</a></td><td rowspan="1">1729467008590</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m6">TestPrimeWithDiffrentValues</a></td><td rowspan="1">1729467008594</td><td rowspan="1">0</td></tr><tr class="passedodd"><td><a href="#m7">TestX</a></td><td rowspan="1">1729467008586</td><td rowspan="1">0</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">suite1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Guru99_Positive &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumTest_Guru99</td><td><a href="#m0">AddCustomer</a></td><td rowspan="1">1730665334992</td><td rowspan="1">8641</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Guru99_Negative_lastName &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumTest_Guru99</td><td><a href="#m1">AddCustomer</a></td><td rowspan="1">1730665343694</td><td rowspan="1">5235</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Guru99_Negative_firstname &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">SeleniumTest_Guru99</td><td><a href="#m2">AddCustomer</a></td><td rowspan="1">1730665348938</td><td rowspan="1">6491</td></tr></tbody>
 </table>
-<h2>Guru99</h2><h3 id="m0">SeleniumTest_Guru99#RunMYWebDriver</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.InvalidSelectorException: invalid selector
-from javascript error: {&quot;status&quot;:32,&quot;value&quot;:&quot;The result of the xpath expression \&quot;//*[@id=\&quot;main\&quot;]/div/form/div/div[1]/label/text()\&quot; is: [object Text]. It should be an element.&quot;}
-  (Session info: chrome=129.0.6668.101)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
-Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;
-System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;23&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d586de1295e6b96f8f491d4f1c9b17e, findElement {value=//*[@id=&quot;main&quot;]/div/form/div/div[1]/label/text(), using=xpath}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 129.0.6668.101, chrome: {chromedriverVersion: 129.0.6668.100 (cf58cba358d..., userDataDir: C:\Users\Admin\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64390}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64390/devtoo..., se:cdpVersion: 129.0.6668.101, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 4d586de1295e6b96f8f491d4f1c9b17e
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
-	at SeleniumTest_Guru99.RunMYWebDriver(SeleniumTest_Guru99.java:22)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">SeleniumTest_Guru99#MyWebDriverSucc</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">SeleniumTest_Guru99#Test1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestMath#AddtoCart</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">TestMath#TestAdditionWithDiffrentValues</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m5">TestMath#TestDifferenceWithDiffrentValues</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m6">TestMath#TestPrimeWithDiffrentValues</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m7">TestMath#TestX</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Guru99_Positive</h2><h3 id="m0">SeleniumTest_Guru99#AddCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Alexander</td><td>Sukhoi</td><td>abc@gmail.com</td><td>3233218914</td><td>561 Lmn Ave</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Guru99_Negative_lastName</h2><h3 id="m1">SeleniumTest_Guru99#AddCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td>Alexander</td><td></td><td>abc@gmail.com</td><td>3233218914</td><td>561 Lmn Ave</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Guru99_Negative_firstname</h2><h3 id="m2">SeleniumTest_Guru99#AddCustomer</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th><th>Parameter #3</th><th>Parameter #4</th><th>Parameter #5</th></tr><tr class="param stripe"><td></td><td>Alexander</td><td>abc@gmail.com</td><td>3233218914</td><td>561 Lmn Ave</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
